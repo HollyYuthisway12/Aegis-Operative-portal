@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-20",
+  "division": "LONDON DIVISION",
+  "threat": "LOW",
+  "bulletins": [
+    {"id":"b1","title":"Equipment compliance notice","body":"All licensed personnel must complete enchantment checks before field deployment."},
+    {"id":"b2","title":"Civic outreach","body":"Unit 04 is scheduled for a Southbank community appearance this afternoon."}
+  ],
+  "schedule": [
+    {"id":"s1","time":"07:30","title":"Agency Check-In","location":"AEGIS London HQ · Security","category":"admin","details":"Biometric verification, equipment registration and daily clearance checks."},
+    {"id":"s2","time":"08:00","title":"Combat Readiness Training","location":"Training Hall B · Level −3","category":"training","details":"Nonlethal sparring against adaptive arcane constructs."},
+    {"id":"s3","time":"09:00","title":"Breakfast & Team Briefing","location":"Staff Canteen · Level 2","category":"personal","details":"Breakfast and daily announcements."},
+    {"id":"s4","time":"09:30","title":"Magitech Equipment Inspection","location":"Armoury · Level −2","category":"admin","details":"Weapon calibration and supply replacement."},
+    {"id":"s5","time":"10:15","title":"Medical & Arcane Screening","location":"Medical Wing · Level 4","category":"admin","details":"Health and magical contamination screening."},
+    {"id":"s6","time":"11:00","title":"Urban Response Simulation","location":"Simulation Chamber 04","category":"training","details":"Civilian evacuation simulation."},
+    {"id":"s7","time":"12:00","title":"Lunch Break","location":"Staff Canteen / London","category":"personal","details":"Personal time."},
+    {"id":"s8","time":"13:00","title":"Public Relations Appearance","location":"Southbank Community Centre","category":"public","details":"Meet residents and answer questions about licensing."},
+    {"id":"s9","time":"14:00","title":"Incident Reports & Casework","location":"Operations Floor · Level 5","category":"admin","details":"Complete outstanding reports."},
+    {"id":"s10","time":"15:00","title":"Tactical Team Assessment","location":"Training Hall A · Level −3","category":"training","details":"Supervised unit challenge."},
+    {"id":"s11","time":"16:00","title":"Community Patrol","location":"Southbank / Waterloo","category":"public","details":"Routine patrol and public engagement."},
+    {"id":"s12","time":"17:00","title":"End-of-Day Debrief","location":"AEGIS London HQ","category":"admin","details":"Submit reports and receive task allocation."}
+  ],
+  "messages": [
+    {"id":"m1","from":"Owen Pike","department":"Equipment Services","subject":"Mandatory equipment inspection","date":"2026-10-20","body":"Unit 04,\n\nPlease report to the armoury before the end of morning rotations. Any unregistered enchanted equipment must be declared.\n\nRegards,\nOwen Pike","priority":true,"published":true},
+    {"id":"m2","from":"Maya Chen","department":"Civic Affairs","subject":"Southbank community appearance","date":"2026-10-20","body":"Morning, Unit 04.\n\nRemember today's community event. We would appreciate a little less property damage than last time.\n\nMaya","priority":false,"published":true},
+    {"id":"m3","from":"Dr. Imogen Shah","department":"Medical & Arcane Wellness","subject":"Annual arcane exposure checks","date":"2026-10-20","body":"Please arrive for your scheduled screening on time. Exposure forms should be completed before arrival.\n\nDr. Shah","priority":false,"published":true}
+  ],
+  "operatives": [
+    {"id":"o1","callsign":"DIRECTOR","name":"Eleanor Vale","division":"Command","role":"London Division Director","unit":"London HQ","clearance":"COMMAND","status":"ON DUTY","specialism":"Strategic command","bio":"Responsible for London Division operational oversight and civilian accountability."},
+    {"id":"o2","callsign":"QUARTERMASTER","name":"Owen Pike","division":"Support","role":"Senior Quartermaster","unit":"Armoury","clearance":"STAFF","status":"ON DUTY","specialism":"Magitech logistics","bio":"Oversees inspection and issuance of field equipment."},
+    {"id":"o3","callsign":"CIVIC","name":"Maya Chen","division":"Support","role":"Civic Affairs Liaison","unit":"Public Relations","clearance":"STAFF","status":"ON DUTY","specialism":"Public relations","bio":"Coordinates community outreach for active response teams."},
+    {"id":"o4","callsign":"MEDIC","name":"Dr. Imogen Shah","division":"Support","role":"Medical & Arcane Wellness Officer","unit":"Medical Wing","clearance":"MEDICAL","status":"ON DUTY","specialism":"Arcane exposure medicine","bio":"Monitors occupational exposure to unstable magical phenomena."}
+  ],
+  "missions": []
+}
